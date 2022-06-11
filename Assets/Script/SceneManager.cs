@@ -9,7 +9,9 @@ public class SceneManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        a = 1;
+        b = 3;
+        Debug.Log(a + b);
     }
 
     // Update is called once per frame
